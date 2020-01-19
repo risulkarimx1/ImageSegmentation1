@@ -1,4 +1,5 @@
-# Synthetic Image Segmentation
+# Synthetic Image Segmentation 
+Full source code of the project was not give as I worked on the porject owned by my employer.
 ## Project Background:
 Replicar Sensor Simulator produces 3D graphics based on intelligent traffic and maps data. The simulator client renders images every frame. The purpose of this project was to segment these images so that they can be used to train Machine Learning algorithms as data set. The project produced 2D semantically segmented imgaes as well as depth images. 
 
