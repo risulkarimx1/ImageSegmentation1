@@ -13,4 +13,5 @@ Another material named “SegmentedImageMaterial” with SegmentedImageShader ta
 ### Step4: Saving the images
 ImageSegmentationSetup.cs contains the configuration. SegmentationTimerController acts as a controller to call the functions to capture images by creating AsyncGpuReadback. AsyncImageSaver compresses the byte array coming back from the request to LzCompression format and saves to disk. 
 
-Full source code of the project was not give as I worked on the porject owned by my employer. The project is temporarily hosted for my portfolio purpose.
+Full source code of the project was not give as I worked on the porject owned by my employer. The project is temporarily hosted for my portfolio purpose. 
+Risul Karim, 20.01.2020
