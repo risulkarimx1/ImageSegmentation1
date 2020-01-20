@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13033ec2949af247acb887af1ac7d04, type: 3}
+  m_Name: SegmentedTagsManager
+  m_EditorClassIdentifier: 
+  _staticObjctsTagColorList:
+  - Tag: Road
+    Color: {r: 0.1911776, g: 1, b: 0, a: 0}
+  - Tag: LaneMarking
+    Color: {r: 1, g: 0.8834678, b: 0, a: 0}
+  - Tag: Barrier
+    Color: {r: 1, g: 0, b: 0.030305386, a: 0}
+  - Tag: Static-Obstacle
+    Color: {r: 1, g: 0, b: 0.03137255, a: 0}
+  - Tag: Static-Useful
+    Color: {r: 0, g: 0.92708683, b: 1, a: 0}
+  _dynamicObjectsTagColorList:
+  - Tag: Actor
+    Color: {r: 0.05842829, g: 0.10429409, b: 0.9528302, a: 0}
+  - Tag: Ego
+    Color: {r: 0.9622642, g: 0.48067504, b: 0, a: 0}

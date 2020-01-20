@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f4932d230bdca14c800f1d5ad3ba8c8, type: 3}
+  m_Name: SegmentedImageSetup
+  m_EditorClassIdentifier: 
+  _segmentedOutputMaterial: {fileID: 2100000, guid: 0889995a258cda04c989e2f7db1bc98f,
+    type: 2}
+  _objectListMaterial: {fileID: 2100000, guid: 6076d5ce748162949ba96af47a9a271a, type: 2}
+  _depthRenderMaterial: {fileID: 2100000, guid: 70b306e59a015604ba29554001950825,
+    type: 2}
+  _debugMode: 0
+  _segmentedOutputDebugMaterial: {fileID: 2100000, guid: 96e5d5a6278a5294c969022bcd960859,
+    type: 2}
+  _segmentedImageDebugger: {fileID: 629384388493423560, guid: 116bccd853db45343a044d0cdc90bd0a,
+    type: 3}
+  _depthOutputDebugMaterial: {fileID: 2100000, guid: 8ace2775a64005a49a5ac563f355b315,
+    type: 2}
+  _depthImageDebugger: {fileID: 3381136610084991743, guid: 26d3363cbd4b02840887e04014a6a93e,
+    type: 3}
+  _fileSizeInMb: 500
