@@ -2,6 +2,8 @@
 ## Project Background:
 Replicar Sensor Simulator produces 3D graphics based on intelligent traffic and maps data. The simulator client renders images every frame. The purpose of this project was to segment these images so that they can be used to train Machine Learning algorithms as data set. The project produced 2D semantically segmented imgaes as well as depth images. 
 
+![1_ImageSeg.png](/1_ImageSeg.png)
+
 ## Implementation Strategy:
 ### Step1: Tagging the object
 To create the segmented images, first, the game objects on the scene were Tagged. For game objects that may fall into the same segment and have the same parent game object, the parent game object was tagged only. SegmentedTagsManager.cs is a scriptable object which stored all the segmentable object's tag and a corresponding color.  
